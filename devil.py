@@ -203,6 +203,28 @@ data,data2={},{}
 aman,cp,salah=0,0,0
 ubahP,fuck,pwBaru=[],[],[]
 
+def main_apv():
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "|".join(uuid)
+  print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
+  try: 
+    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/mr.rahul/main/Server.txt").text 
+    if id in httpCaht: 
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      msg = str(os.geteuid()) 
+      time.sleep(3) 
+      pass 
+    else: 
+      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ") 
+      os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
+      time.sleep(3) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print (logo)
+     sex()
+
 ok = []
 cp = []
 id = []
@@ -1034,8 +1056,30 @@ banner = """
 \33[0;92m█  \32Version : \033[0;97m0.2 V
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
-
-
+def main_apv():
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "|".join(uuid)
+  print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
+  try: 
+    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/mr.rahul/main/Server.txt").text 
+    if id in httpCaht: 
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      msg = str(os.geteuid()) 
+      time.sleep(3) 
+      pass 
+    else: 
+      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ")
+      print (' Monthly: 400')
+      print (' Number: 03239021979')
+      print (' Payment: Jazzcash ')
+      os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20NAWAB%20I%20want%20to%20buy%20your%20command%20Random%20clone')
+      time.sleep(3) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print (logo)
+     sex()
 ct = datetime.now()
 n = ct.month
 monthsx = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
@@ -1052,4 +1096,4 @@ _ses=requests.Session()
 
 if __name__=='__main__':
 	os.system('git pull')
-
+main_apv()
