@@ -45,8 +45,7 @@ except ImportError:
     print('\n [âœ“] installing bs4 !...\n')
     os.system('pip install bs4')
 if not os.path.isfile('.agents.txt'):
-    os.system('curl -L https://raw.githubusercontent.com/mrpardesi007/files/main/.agents.txt > .agents.txt')
-ct = datetime.now()
+    ct = datetime.now()
 n = ct.month
 bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
 try:
