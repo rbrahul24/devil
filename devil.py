@@ -208,7 +208,7 @@ def main_apv():
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/mr.rahul/main/Server.txt").text 
+    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/").text 
     if id in httpCaht: 
       print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
       msg = str(os.geteuid()) 
