@@ -203,13 +203,6 @@ data,data2={},{}
 aman,cp,salah=0,0,0
 ubahP,fuck,pwBaru=[],[],[]
 
-
-  except: 
-    sys.exit() 
-    if name == '__main__': 
-     print (logo)
-     sex()
-
 ok = []
 cp = []
 id = []
@@ -1042,11 +1035,7 @@ banner = """
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
 
-  except: 
-    sys.exit() 
-    if name == '__main__': 
-     print (logo)
-     sex()
+
 ct = datetime.now()
 n = ct.month
 monthsx = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
