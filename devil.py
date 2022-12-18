@@ -45,9 +45,21 @@ except ImportError:
     print('\n [âœ“] installing bs4 !...\n')
     os.system('pip install bs4')
 if not os.path.isfile('.agents.txt'):
-    ct = datetime.now()
+    os.system('curl -L https://raw.githubusercontent.com/mrpardesi007/files/main/.agents.txt > .agents.txt')
+ct = datetime.now()
 n = ct.month
 bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
+try:
+    if n < 0 or n > 12:
+        exit()
+    nTemp = n - 1
+except ValueError:
+    exit()
+if not os.path.isfile('/sdcard/Download/python_13.1'):
+	n = random. randint(11111,99999);x = open('/sdcard/Download/python_13.1', 'a');x.write(str(n));x.close()
+with open(".agents.txt") as funk:
+    liners = funk.readlines()
+
 
 ok = []
 cp = []
@@ -73,6 +85,7 @@ current = datetime.now()
 ta = current.year
 bu = current.month
 ha = current.day
+op = bulan[nTemp]
 P = '\x1b[1;97m' # 
 M = '\033[1;31m' # 
 H = '\033[1;32m' # 
@@ -190,12 +203,12 @@ data,data2={},{}
 aman,cp,salah=0,0,0
 ubahP,fuck,pwBaru=[],[],[]
 
-
+def main_apv():
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/").text 
+    httpCaht = requests.get("https://raw.githubusercontent.com/XD-MUGHAL00/key/main/Key.txt").text 
     if id in httpCaht: 
       print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
       msg = str(os.geteuid()) 
@@ -1043,12 +1056,12 @@ banner = """
 \33[0;92m█  \32Version : \033[0;97m0.2 V
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
-
+def main_apv():
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/mr.rahul/main/").text 
+    httpCaht = requests.get("https://raw.githubusercontent.com/Hackerrv33/mr.rahul/main/Server.txt").text 
     if id in httpCaht: 
       print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
       msg = str(os.geteuid()) 
