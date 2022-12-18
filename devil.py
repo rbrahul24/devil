@@ -190,7 +190,7 @@ data,data2={},{}
 aman,cp,salah=0,0,0
 ubahP,fuck,pwBaru=[],[],[]
 
-def main_apv():
+def ():
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
@@ -1043,7 +1043,7 @@ banner = """
 \33[0;92m█  \32Version : \033[0;97m0.2 V
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
-def main_apv():
+def ():
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid)
   print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
