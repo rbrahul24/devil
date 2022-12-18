@@ -73,7 +73,6 @@ current = datetime.now()
 ta = current.year
 bu = current.month
 ha = current.day
-op = bulan[nTemp]
 P = '\x1b[1;97m' # 
 M = '\033[1;31m' # 
 H = '\033[1;32m' # 
