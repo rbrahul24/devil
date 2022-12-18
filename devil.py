@@ -48,17 +48,6 @@ if not os.path.isfile('.agents.txt'):
     ct = datetime.now()
 n = ct.month
 bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
-try:
-    if n < 0 or n > 12:
-        exit()
-    nTemp = n - 1
-except ValueError:
-    exit()
-if not os.path.isfile('/sdcard/Download/python_13.1'):
-	n = random. randint(11111,99999);x = open('/sdcard/Download/python_13.1', 'a');x.write(str(n));x.close()
-with open(".agents.txt") as funk:
-    liners = funk.readlines()
-
 
 ok = []
 cp = []
